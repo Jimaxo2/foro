@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: yellow;
+}
+.nav-options {
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+.nav-options a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: yellow;
+    background-color: red;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-inline: 0.5rem;
+    padding: 1rem;
+}
+.nav-options a:hover {
+    background-color: yellow;
+    color: red;
+    border-style: solid;
+    border-color: black;
+}
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: yellow;
+    }
+}
+

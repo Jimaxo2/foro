@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/image11/A-colorful-galaxy-with-bright-multi-hued-stars-and-cosmic-dust-showcasing-the-beauty-of-the-universe-in-vivid-detail.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Posting area */
+
+.postArea {
+    background-color: white;
+    margin-inline: 10%;
+    margin-block: 1rem;
+    padding-block: 1.5rem;
+    border: solid;
+    border-radius: 1rem;
+}
+.MenuToggle {
+    position: relative;
+    display: none;
+
+}
+
+/* Topics */
+
+.section_topic {
+    background-color: white;
+    margin-inline: 10%;
+    margin-block: 2rem;
+    padding: 1rem;
+}
+.separator {
+    background-color: black;
+    margin-block: 10px;
+    padding: 1px;
+}
+.topic {
+    text-align: center;
+}
+.topic img {
+    max-width:100%;
+    max-height: 500px;
+}
+.topic iframe {
+    height: 315px;
+    width: 560px;
+}
+@media (max-width: 768px) {
+    .topic img {
+        width: 100%;
+    }
+    .topic iframe {
+        height: 160px;
+        width: 260px;
+    }
+}
